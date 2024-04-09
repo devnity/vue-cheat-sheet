@@ -48,6 +48,17 @@ const router = createRouter({
       path: '/conditional-rendering/v-show',
       name: 'VShow',
       component: () => import('../conditional-rendering/VShow.vue')
+    },
+    // text-Interpolation
+    {
+      path: '/conditional-rendering/v-text',
+      name: 'VText',
+      component: () => import('../text-Interpolation/VText.vue')
+    },
+    {
+      path: '/conditional-rendering/v-html',
+      name: 'VHtml',
+      component: () => import('../text-Interpolation/VHtml.vue')
     }
   ]
 })
