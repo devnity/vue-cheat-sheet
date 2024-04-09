@@ -59,6 +59,17 @@ const router = createRouter({
       path: '/conditional-rendering/v-html',
       name: 'VHtml',
       component: () => import('../text-Interpolation/VHtml.vue')
+    },
+    // event-handling
+    {
+      path: '/event-handling/inline-handlers',
+      name: 'InlineHandlers',
+      component: () => import('../event-handling/InlineHandlers.vue')
+    },
+    {
+      path: '/event-handling/method-handlers',
+      name: 'MethodHandlers',
+      component: () => import('../event-handling/MethodHandlers.vue')
     }
   ]
 })
